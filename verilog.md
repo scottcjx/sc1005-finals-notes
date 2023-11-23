@@ -32,6 +32,16 @@ Combinational vs Sequential
 |sequence of assignment matter|YES|NO|
 |creates a latch + register|NO|YES|
 
+<br>
+
+---
+
+|Statement|T/F|
+|:-|:-:|
+|multiple circuits in same module is allowed|T|
+|sequential and combinational in same module is allowed|T|
+
+
 #### Combinational
 
 ``` v
@@ -49,3 +59,12 @@ begin
     // code
 end
 ```
+
+### Switch Case
+
+``` v
+case (varName)
+    endcase
+```
+
+
