@@ -1,6 +1,13 @@
 # Verilog
 
-## Syntax
+## Contents
+- [Modules](#modules)
+- [Types of Circuits](#types-of-circuits)
+- [Switch-Case](#switch-case)
+- [Finate State Machines (FSM)](./fsm)
+- [Common Circuits](./circuits)
+
+
 ### Modules
 
 Structure of declaring a module:
@@ -19,6 +26,8 @@ endmodule
 
 ### Variables
 
+
+
 ### Types of Circuits
 
 Combinational vs Sequential
@@ -31,6 +40,7 @@ Combinational vs Sequential
 |assignments|assign|<=|
 |sequence of assignment matter|YES|NO|
 |creates a latch + register|NO|YES|
+|usually handles RST|NO|YES|
 
 <br>
 
