@@ -3,6 +3,7 @@
 ### Sequence Diagram
 
 
+
 ### Verilog implementation
 
 Using a [combinational circuit](./verilog#combinational) + [switch case](./verilog#switch-case).
